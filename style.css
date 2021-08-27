@@ -48,7 +48,7 @@ header{
     text-align: center;
 }
 .col-2 img{
-    width: 350px;
+    width: 450px;
 }
 .content-text{
     color: #424242;
@@ -309,7 +309,7 @@ header{
         text-align: center;
     }
     .section-1{
-        padding: 140px 0;
+        padding: 140px 5px;
     }
     .container{
         width: 100%;
@@ -338,10 +338,19 @@ header{
     .col-3-min{
         text-align: center;
     }
-    header{
+      header{
         position: relative;
         width: 100%;
         padding: 15px 20px;
+    }
+    header .logo{
+        width: 80px;
+    }
+    header .mobile-number a{
+        font-size: 14px;
+    }
+    .mobile-number a:hover{
+        color: rgb(64, 64, 173);
     }
     .content-text{
         width: 100%;
@@ -425,10 +434,19 @@ header{
     .col-3-min{
         text-align: center;
     }
-    header{
+      header{
         position: relative;
         width: 100%;
-        padding: 15px 20px;
+        padding: 10px 0px;
+    }
+    header .logo{
+        width: 60px;
+    }
+    header .mobile-number a{
+        font-size: 12px;
+    }
+    .mobile-number a:hover{
+        color: rgb(64, 64, 173);
     }
     .content-text{
         width: 100%;
